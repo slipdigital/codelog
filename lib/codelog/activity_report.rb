@@ -1,0 +1,3 @@
+class CodeLog::ActivityReport
+
+end

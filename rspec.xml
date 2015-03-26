@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="224" failures="1" errors="0" time="0.030239" timestamp="2015-02-12T14:22:01+00:00">
+  <properties/>
+  <testcase classname="spec.models.faq_spec" name="FloowClientApi::FloowModel reports persisted correctly" time="0.002562"/>
+  <testcase classname="spec.models.faq_spec" name="FloowClientApi::FloowModel reports persisted correctly" time="0.000321"/>
+  <testcase classname="spec.models.faq_spec" name="FloowClientApi::FloowModel reports persisted correctly" time="0.000077"/>
+  <testcase classname="spec.models.faq_spec" name="FloowClientApi::FloowModel calls update attributes correctly" time="0.000253"/>
+  <testcase classname="spec.models.faq_spec" name="FloowClientApi::FloowModel reports persisted correctly" time="0.000077"/>
+  <testcase classname="spec.models.fleet_user_spec" name="FloowClientApi::FleetUser reports persisted correctly" time="0.000087"/>
+  <testcase classname="spec.models.fleet_user_spec" name="FloowClientApi::FleetUser Can pass authenticate" time="0.003631"/>
+  <testcase classname="spec.models.fleet_user_spec" name="FloowClientApi::FleetUser can fail authentication" time="0.000664">
+    <failure message="&#10;expected: false&#10;     got: &lt;FloowThrift::AuthenticationException why:nil&gt;&#10;&#10;(compared using ==)&#10;" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[
+expected: false
+     got: <FloowThrift::AuthenticationException why:nil>
+
+(compared using ==)
+
+./spec/models/fleet_user_spec.rb:25:in `block (2 levels) in <top (required)>']]>
+    </failure>
+  </testcase>
+  <testcase classname="spec.models.test_spec" name="Test will allways pass" time="0.000090"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetFaqCategories_args" time="0.000087"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetJourneySummary_args" time="0.000078"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetJourneyMapPoints_args" time="0.000076"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetTelematicUser_result" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetFaqEntries_args" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetFleetUser_args" time="0.000074"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetJourneyIds_args" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetJourneyMapPoints_result" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetJourneyIds_result" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetJourneySummary_result" time="0.000064"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetFaqEntries_result" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetFaqCategories_result" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetFleetUser_result" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has class defined as expected GetTelematicUser_args" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal Has no class defined for BlueRubberDuck (Sanity check)" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getTelematicUser" time="0.000088"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFaqEntries" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createOrganisation" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getVehicle" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getFaqEntries" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportSourceFields" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getUserJourneyIds" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getVehicleMileageHistory" time="0.000075"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createFaqCategory" time="0.000081"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportDefinition" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getVehicles" time="0.000083"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateVehicle" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateFleetUser" time="0.000078"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFleetUser" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReport" time="0.000094"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateOrganisation" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getFleetUser" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_runReportDefinition" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getMileageForRange" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getTelematicUser" time="0.000080"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getVehicle" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createReportDefinition" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteUser" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getCurrentUser" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getJourneysByVehicleId" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateReportDefinition" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneyIds" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createTelematicUser" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReportSourceFields" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneysByVehicleId" time="0.000084"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getJourneyMapPoints" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createFaqCategory" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getVehicles" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getFleetUsers" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getVehicles" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getJourneysByVehicleId" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getTelematicUser" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteReport" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateOrganisation" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getFaqCategories" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createOrganisation" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFaqCategories" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneyMapPoints" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReportDefinitions" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_deleteFaqCategory" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneyIds" time="0.000079"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getTelematicUsers" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getUserJourneyIds" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getQueryDataTypes" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFaqCategories" time="0.000079"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFaqEntries" time="0.000083"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createVehicle" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportsByDefinitionId" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createFaqEntry" time="0.000062"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createVehicle" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createFleetUser" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteFaqEntry" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportSourceTypes" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateOrganisation" time="0.000074"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createReportDefinition" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getCurrentUser" time="0.000063"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createFaqEntry" time="0.000089"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getPortalStatistics" time="0.000099"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getVehicles" time="0.000090"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateFaqEntry" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReports" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createTelematicUser" time="0.000079"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportDefinitions" time="0.000090"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getJourneyIds" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getJourneyMapPoints" time="0.000163"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteFaqCategory" time="0.000115"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReportDefinitions" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateFleetUser" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReports" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateFaqEntry" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_deleteReportDefinition" time="0.000094"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReportSourceTypes" time="0.000087"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReportDefinition" time="0.000102"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportsByDefinitionId" time="0.000090"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getPortalStatistics" time="0.000082"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createFleetUser" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createReport" time="0.000078"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateFleetUser" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReports" time="0.000086"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportSourceTypes" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getMileageForRange" time="0.000082"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateFaqCategory" time="0.000083"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createFaqEntry" time="0.000083"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getTelematicUser" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFleetUser" time="0.000107"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getOrganisations" time="0.000110"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getOrganisations" time="0.000115"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneySummary" time="0.000111"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createReport" time="0.000078"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_deleteFaqCategory" time="0.000075"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createTelematicUser" time="0.000088"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createFaqCategory" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateVehicle" time="0.000082"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneysByVehicleId" time="0.000076"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has only has the recorded methods defined" time="0.000280"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected runReportDefinition" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getOrganisation" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReport" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getTelematicUsers" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getFaqCategories" time="0.000084"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getTelematicUsers" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createFaqEntry" time="0.000074"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected runReportDefinition" time="0.000080"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReportDefinition" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getMileageForRange" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_deleteReportDefinition" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createReportDefinition" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getOrganisation" time="0.000064"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getVehicle" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_deleteReport" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateFaqEntry" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateFleetUser" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getCurrentUser" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReportSourceTypes" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneySummary" time="0.000064"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteReportDefinition" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getVehicleMileageHistory" time="0.000094"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteReport" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getVehicle" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getTelematicUsers" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getQueryDataTypes" time="0.000064"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_deleteReport" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createVehicle" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateTelematicUser" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getJourneySummary" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getPortalStatistics" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateOrganisation" time="0.000062"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteFaqCategory" time="0.000063"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getOrganisation" time="0.000074"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getUserJourneyIds" time="0.000061"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getVehicleMileageHistory" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteUser" time="0.000074"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getPortalStatistics" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReport" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateVehicle" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReportsByDefinitionId" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createFleetUser" time="0.000061"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportSourceFields" time="0.000074"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportDefinitions" time="0.000064"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReportDefinition" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getUserJourneyIds" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateFaqCategory" time="0.000075"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_deleteUser" time="0.000062"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getOrganisations" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReport" time="0.000077"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateTelematicUser" time="0.000063"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_deleteUser" time="0.000062"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getReports" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFleetUsers" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createVehicle" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateFaqCategory" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createReportDefinition" time="0.000060"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getQueryDataTypes" time="0.000061"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getQueryDataTypes" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getOrganisations" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_deleteFaqEntry" time="0.000062"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createFaqCategory" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_deleteFaqEntry" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateFaqCategory" time="0.000063"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getReportSourceFields" time="0.000086"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getMileageForRange" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateReportDefinition" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createReport" time="0.000081"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateReportDefinition" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getCurrentUser" time="0.000082"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getJourneyIds" time="0.000081"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getFleetUsers" time="0.000090"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createTelematicUser" time="0.000076"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_runReportDefinition" time="0.000071"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateReportDefinition" time="0.000072"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getFleetUsers" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getJourneyMapPoints" time="0.000076"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_updateFaqEntry" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteFaqEntry" time="0.000065"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getJourneySummary" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createOrganisation" time="0.000076"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getFleetUser" time="0.000063"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected deleteReportDefinition" time="0.000073"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getVehicleMileageHistory" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_getFaqEntries" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_createOrganisation" time="0.000082"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateVehicle" time="0.000076"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_getReportsByDefinitionId" time="0.000068"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected recv_createFleetUser" time="0.000063"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected createReport" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected getOrganisation" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected send_updateTelematicUser" time="0.000064"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Client Has methods defined as expected updateTelematicUser" time="0.000067"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getFleetUser" time="0.000084"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getJourneyIds" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getFaqCategories" time="0.000070"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getJourneySummary" time="0.000066"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getJourneyMapPoints" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getTelematicUser" time="0.000069"/>
+  <testcase classname="spec.models.thrift_client_spec" name="FloowThrift::ClientPortal FloowThrift::ClientPortal::Processor Has methods defined as expected process_getFaqEntries" time="0.000065"/>
+</testsuite>

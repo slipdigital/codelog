@@ -1,49 +1,28 @@
-# FloowClientApi
+# status
+This project is currently work in progress. I will try and get version 1 released within a fairly short cycle, on order to get the end result and
+ work on bells and whistles as feedback and PR's come in.
 
-This gem is responsible for communicating with the API via Thrift definitions.
+# Overview
+CodeLog is a tool to help timekeeping on projects in a scenario where you are interacting / making 
+changes to multiple projects and its difficult to keep track of the time spent. 
 
-## Installation
+V1 will be designed to meet these simple needs, scan the git repos and tell you what you have been doing over a period of time.
 
-Add this line to your application's Gemfile:
+# Install 
+gem install codelog
 
-    gem 'floow_client_api'
+rake console 
 
-If you are working locally you can do the following
+CodeLog::Setup.scan('~/path/to/parent/folder/of/code', 2)
 
-    gem 'floow_client_api', :path => '../path_to_gem_locally'
+Codelog will scan the specified path, find Git repos and look at the logs, and report what you have been up to. 
 
-And then execute:
+# Notes
 
-    $ bundle
+Codelog will keep a record of the repositories it find, so the scan operation 
+does not need to be done each time, once setup it will simply report on activity and check for new 
+repos in the paths you specified. 
 
-Or install it yourself as:
 
-    $ gem install floow_client_api
 
-## Tagging versions
 
-Use the tag to dictate the version of the gem.
-
-Tag format for production versions :
-
-: v([0-9].).([0-9].).([0-9].)
-
-To add a tag for a new version do the following :
-
-    git tag -a v1.0.0 -m 'first version'
-    git push origin v1.0.0
-
-In order to update a tag version do the following
-
-    git tag -d v1.0.0
-    git push origin :refs/tags/v1.0.0
-    git tag -a v1.0.0 -m 'first version'
-    git push origin v1.0.0
-
-List Existing Tags
-
-    git tag
-
-To view details of an existing tag run
-
-    git show {tag name}
